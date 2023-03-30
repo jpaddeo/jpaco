@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Comando (CLI) asistente para la creación de commits de git",
   "type": "module",
-  "private": false,
   "bin": {
     "jpaco": "src/bin.js"
   },
