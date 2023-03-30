@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Comando (CLI) asistente para la creación de commits de git",
   "type": "module",
+  "private": false,
   "bin": {
     "jpaco": "src/bin.js"
   },
@@ -16,8 +17,8 @@
     "github",
     "gitlab"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Juan Pablo Addeo",
+  "license": "MIT",
   "devDependencies": {
     "standard": "17.0.0"
   },
@@ -27,6 +28,10 @@
       "error",
       "never"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpaddeo/jpaco.git"
   },
   "dependencies": {
     "@bdsqqq/try": "2.3.1",
