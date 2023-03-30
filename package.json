@@ -1,0 +1,36 @@
+{
+  "name": "@jpaddeo/jpaco",
+  "version": "1.0.0",
+  "description": "Comando (CLI) asistente para la creación de commits de git",
+  "type": "module",
+  "bin": {
+    "jpaco": "src/bin.js"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "github",
+    "gitlab"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "17.0.0"
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "space-before-function-paren": [
+      "error",
+      "never"
+    ]
+  },
+  "dependencies": {
+    "@bdsqqq/try": "2.3.1",
+    "@clack/prompts": "0.6.1",
+    "picocolors": "1.0.0"
+  }
+}
