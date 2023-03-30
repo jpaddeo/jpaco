@@ -19,7 +19,8 @@
   "author": "Juan Pablo Addeo",
   "license": "MIT",
   "devDependencies": {
-    "standard": "17.0.0"
+    "standard": "17.0.0",
+    "@jpaddeo/jpaco" : "file://."
   },
   "eslintConfig": {
     "extends": "standard",
@@ -36,5 +37,9 @@
     "@bdsqqq/try": "2.3.1",
     "@clack/prompts": "0.6.1",
     "picocolors": "1.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/jpaddeo/jpaco/issues"
+  },
+  "homepage": "https://github.com/jpaddeo/jpaco#readme"
 }
