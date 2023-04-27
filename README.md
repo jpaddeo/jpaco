@@ -13,3 +13,5 @@ CLI para hacer commits lindos [NPM](https://www.npmjs.com/@jpaddeo/jpaco)
 - Ingresá el scope asociado a el/los archivo/s 
 - Ingresá el mensaje asociado al commit
 - Confirmá y...listo ✅!
+
+_Proyecto basado en una propuesta de [Miguel Ángel Duran](https://midu.dev) | [Github](https://github.com/midudev)_
